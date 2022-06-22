@@ -155,6 +155,7 @@ color: var(--color-White);
 .grids-imgs{
   display: grid;
   grid-gap: 30px;
+ 
 }
 
 .grid-img{
@@ -163,12 +164,24 @@ color: var(--color-White);
 
 .one {
   position: relative;
+  
+
 }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  box-shadow: inset 0px 0px 100px 25px rgb(0 0 0 / 60%);
+  top: 0px;
+}
+
 
 .bottom-one {
   position: absolute;
   top: 62px;
   left: 10px;
+  
 }
 
 .bottom-paragraph{
