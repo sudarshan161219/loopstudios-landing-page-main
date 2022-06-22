@@ -31,6 +31,9 @@
   }
 
 
+  .logo{
+    width: 130px;
+  }
 
 
 .container{
@@ -71,7 +74,7 @@
     line-height: 1.1;
 }
 
-.content{
+.content, .grids{
     margin: 5rem 1rem;
     display: grid;
   grid-gap: 50px;
@@ -102,7 +105,7 @@
     font-family: 'Alata', sans-serif;
     color: var(--color-VeryDarkGray);
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     word-wrap:normal;
 }
@@ -146,4 +149,13 @@ a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.9rem;
+}
+
+.grid-imgs{
+    display: grid;
+    grid-gap: 30px;
+}
+
+.grid-img{
+    width: 100%;
 }
