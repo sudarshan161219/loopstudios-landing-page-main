@@ -447,6 +447,20 @@ font-size: 1.5rem;
 } 
 
 
+.desktop-img-text {
+  display: grid;
+  align-content: center;
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: var(--color-White);
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  width: 490px;
+  height: 220px;
+}
+
+
 ul{
   grid-gap: 10px;
 }
@@ -611,6 +625,10 @@ a:hover:after {
 
 
 @media (min-width:1366px) {
+
+  .logo {
+    width: 195px;
+}
 
   .img-container {
   height: 110vh;
